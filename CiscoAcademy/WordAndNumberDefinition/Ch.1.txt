@@ -1,0 +1,128 @@
+Word Definitions
+
+Texting: Texting enables instant real-time communication between two or more people.
+
+Social Media: Social media consists of interactive websites where people and communities create and share user-generated content with friends, family, peers, and the world.
+
+Collaberation Tools:  Without the constraints of location or time zone, collaboration tools allow individuals to communicate with each other, often across real-time interactive video. The broad distribution of data networks means that people in remote locations can contribute on an equal basis with people in the heart of large population centers.
+
+Blogs: Blogs are an abbreviation of the word “weblogs”, are web pages that are easy to update and edit. Unlike commercial websites, blogs give anyone a means to communicate their thoughts to a global audience without technical knowledge of web design.
+
+Wikis: Wikis are web pages that groups of people can edit and view together. Whereas a blog is more of an individual, personal journal, a wiki is a group creation. As such, it may be subject to more extensive review and editing. 
+
+Podcasting: Podcasting allows people to deliver their audio recordings to a wide audience. The audio file is placed on a website (or blog or wiki) where others can download it and play the recording on their computers, laptops, and other mobile devices. 
+
+Peer-to-Peer (P2P) File Sharing: Peer-to-Peer file sharing allows people to share files with each other without having to store and download them from a central server. The user joins the P2P network by simply installing the P2P software. 
+
+File Client and Server: File server stores corporate and user files in a central location. The client devices access these files with client software such as Windows Explorer.
+
+Web Client and Server: Web Server runs server software and clients use their browser software to access the web pages on the server.
+
+Email Client and Server: Email Server runs email server software and clients use their mail client software to access email on the server
+
+End Devices: An end device is either the source or destination of a message transmitted over a network.
+
+Metallic wires within cables: Data is encoded into electrical impulses.
+
+Glass or plastic fibers (fiber optic cable): Data is encoded as pulses of light.
+
+Wireless transmission: Data is encoded using wavelengths from the electromagnetic spectrum.
+
+Network Interface Card: A NIC, or LAN adapter, provides the physical connection to the network at the PC or other end device. 
+
+Physical Port: A connector or outlet on a networking device where the media is connected to an end device or another networking device.
+
+Interface: Specialized ports on a networking device that connect to individual networks.
+
+Physical topology diagrams:  Identify the physical location of intermediary devices and cable installation.
+
+Logical topology diagrams: Identify devices, ports, and addressing scheme. 
+
+Local Area Network (LAN): A network infrastructure that provides access to users and end devices in a small geographical area.
+
+Wide Area Network (WAN):  A network infrastructure that provides access to other networks over a wide geographical area.
+
+Metropolitan Area Network (MAN): A network infrastructure that spans a physical area larger than a LAN but smaller than a WAN.
+
+Wireless LAN (WLAN): Similar to a LAN but wirelessly interconnects users and end points in a small geographical area.
+
+Storage Area Network (SAN): A network infrastructure designed to support file servers and provide data storage, retrieval, and replication.
+
+Cable: The Internet data signal is carried on the same cable that delivers cable television. It provides a high bandwidth, always on, connection to the Internet.
+
+DSL: Digital Subscriber Lines provide a high bandwidth, always on, connection to the Internet. DSL runs over a telephone line.
+
+Cellular: Cellular Internet access uses a cell phone network to connect. Wherever you can get a cellular signal, you can get cellular Internet access. Performance will be limited by the capabilities of the phone and the cell tower to which it is connected.
+
+Satellite: The availability of satellite Internet access is a real benefit in those areas that would otherwise have no Internet connectivity at all. Satellite dishes require a clear line of sight to the satellite.
+
+Dial-up Telephone: An inexpensive option that uses any phone line and a modem.
+
+Dedicated Leased Line: Leased lines are actually reserved circuits within the service provider’s network that connect geographically separated offices for private voice and/or data networking.
+
+Ethernet WAN: Ethernet WANs extend LAN access technology into the WAN.
+
+Converging Network: converged networks are capable of delivering data, voice, and video between many different types of devices over the same network infrastructure.
+
+Fault Tolerance: Fault tolerant network is one that limits the impact of a failure, so that the fewest number of devices are affected.
+
+Scalability: Scalable network can expand quickly to support new users and applications without impacting the performance of the service being delivered to existing users.
+
+Quality of Service (QoS): QoS becomes a primary mechanism for managing congestion and ensuring reliable delivery of content to all users.
+
+Security: Protecting the information contained within the packets being transmitted over the network and the information stored on network attached devices.
+
+Confidentiality: Data confidentiality means that only the intended and authorized recipients can access and read data.
+
+Integrity:  Data integrity means having the assurance that the information has not been altered in transmission, from origin to destination.
+
+Availability: Data availability means having the assurance of timely and reliable access to data services for authorized users.
+
+Bring Your Own Device(BYOD): BYOD is about end users having the freedom to use personal tools to access information and communicate across a business or campus network.
+
+Online Collaboration: The act of working with another or others on a joint project over an online session.
+
+Video Communication: It is where people can connect to one another through the use of video calls.
+
+Custom Cloud: A cloud that an individual or organizations can change to their choice.
+
+Public Cloud: A cloud that is available to everyone but can only be change by the public government holding it.
+
+Private Cloud:A cloud that can only be accessed and changed by the individual or organization that owns it.
+
+Hybrid Cloud: A server that is made up of two or more clouds with each being a distinced object but are all connected using a single archetecture.
+
+Smart Home Technology: Smart home technology is technology that is integrated into every-day appliances allowing them to interconnect with other devices, making them more ‘smart’ or automated.
+
+Powerline Networking: It is multiple WiFi broadcasters connected together by powerlines to help increase the range the WiFi in the building.
+
+Wireless Internet Service Provider (WISP): An ISP that connects subscribers to a designated access point or hot spot using similar wireless technologies found in home wireless local area networks (WLANs).
+
+Wireless BroadBand Service: The same way as WISP but for smart phones and tablets.
+
+Viruses, worms, and trojan horses: malicious software and arbitrary code running on a user device.
+
+Spyware and adware:  software installed on a user device that secretly collects information about the user.
+
+Zero-day attacks, also called zero-hour attacks: an attack that occurs on the first day that a vulnerability becomes known.
+
+Hacker attacks: an attack by a knowledgeable person to user devices or network resources.
+
+Denial of service attacks: attacks designed to slow or crash applications and processes on a network device.
+
+Data interception and theft: an attack to capture private information from an organization’s network.
+
+Identity theft: an attack to steal the login credentials of a user in order to access private data.
+
+Antivirus and antispyware: These are used to protect end devices from becoming infected with malicious software.
+
+Firewall filtering: This is used to block unauthorized access to the network. This may include a host-based firewall system that is implemented to prevent unauthorized access to the end device, or a basic filtering service on the home router to prevent unauthorized access from the outside world into the network.
+
+Dedicated firewall systems: These are used to provide more advanced firewall capabilities that can filter large amounts of traffic with more granularity.
+
+Access control lists (ACL): These are used to further filter access and traffic forwarding.
+
+Intrusion prevention systems (IPS): These are used to identify fast-spreading threats, such as zero-day or zero-hour attacks.
+
+Virtual private networks (VPN): These are used to provide secure access to remote workers.
+
