@@ -1,2 +1,32 @@
 Words Definitions:
 
+Cisco IOS: Term that represents the operating systems used by Cisco networking devices.
+
+Shell: Portion of operating system that interacts with applications and the user.
+
+Kernel: Portion of operating system that interfaces directly with computer hardware.
+
+GUI: A user-friendly interface thatprovides an interface between a user and an OS through a graphical environment.
+
+Console: A physical port of a Cisco device that provides access to the device via a dedicated management channel, also known as out-of-band access.
+
+Keyword: Parameter with a predefined value to be used by an IOS command.
+
+Argument: Parameter that has to be supplied by the user to an IOS command.
+
+Startup Configuration: File that is stored in NVRAM and that contains the configuration that has been saved on a device to be used upon startup or reboot.
+
+Running Configuration: File that is stored in RAM and that contains the configuration that is being done on a device.
+
+SVI: A logical interface used to remotely manage a switch over an IPv4 network.
+
+SSH: A protocaol to establish a remote secure CLI connection over the network.
+
+Ping: Command to verify connectivity between the source (the device where the command is issue) and the destination (IP address used as argument).
+
+Traceroute: Command to check the path that a packet takes to reach a destination.
+
+ipconfig: Windows command that shows the IP configuration settings on a PC.
+
+DHCP: A protocol that dynamically leases IPv4 addresses to DHCP-enabled end devices.
+
