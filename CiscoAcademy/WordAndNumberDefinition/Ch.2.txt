@@ -30,3 +30,25 @@ ipconfig: Windows command that shows the IP configuration settings on a PC.
 
 DHCP: A protocol that dynamically leases IPv4 addresses to DHCP-enabled end devices.
 
+Telnet:  A insecure method of remotely establishing a CLI session through a virtual interface, over a network.
+
+User EXEC Mode: Mode allows access to only a limited number of basic monitoring commands. It is often referred to as "view-only" mode.
+
+Priviledged EXEC Mode: Mode allows access to all commands and features. The user can use any monitoring commands and exicute configuration and management commands.
+
+Line Configuration Mode: Used to configer console, SSH, Telnet, or AUX access.
+
+Interface Configuration Mode: Used to confiure a switch port or route network interface
+
+Keyword: A specific parameter defined in the operating system (Ip protocols).
+
+Argument: Not predefined in the variable defined by the user (192.168.10.5).
+
+Ping ip-address: The command is ping and the user-defined argument is the ip-address of the destination device.(ping 10.10.10.5).
+
+Traceroute ip-address: The command is traceroute and the user-defined argument is the ip-address of the destination device.(192.168.254.254).
+
+Startup-config: The file stored in Non-volatile Random Access Memory (NVRAM) that contains all of the commands that will be used by the device upon startup or reboot. NVRAM does not lose its contents when the device is powered off.
+
+Running-config: The file stored in the Random Access Memory (RAM) that reflects the current configuration. Modifying a running configuration affects the operation of a Cisco device immediately. It loses all of its content when the device is powered off or restarted.
+
