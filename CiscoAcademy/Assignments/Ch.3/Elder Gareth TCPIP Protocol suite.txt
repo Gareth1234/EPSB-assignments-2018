@@ -1,0 +1,39 @@
+DNS: Translates dominion names into IP addresses.
+
+BOOTP: Enables a diskless workstation to discover its own IP address for the IP address on a BOOTP server on a network and the files on it are loaded into the memory to boot up the machine.
+
+DHCP: Dynamically assigns IP addresses to a clients station at start-up and can be re-used when no longer needed.
+
+SMTP: Allows clients to send  email to a mail server and allows the server to send the email to other servers.
+
+POP: Allows clients to retreive their email and allow desktops to download the email onto them.
+
+IMAP: Allows access to emails stored on a server and maintains the email on the server.
+
+FTP: Allows a user to access and transfer file from another user over a network.
+
+TFTP: Acts the same as FTP but is simpler and less secure.
+
+HTTP: Sets rules for exchanging multimedia files on the world wide web.
+
+UDP: Allows transfer of packets from one running user to another running user but is insecure.
+
+TCP: Is a more reliable and secure version of UDP.
+
+IP: Recievecs packets and messages from the transport layer and addresses them for devlivery over an end-to-end internetwork.
+
+NAT: Translates IP addresses on a private network to a globally unique public version.
+
+ICMP: Provides feed about any errors in deliverence to the sender and reciver of a packet.
+
+OSPF: A Link-state routing protocol based on a hierarchical design of areas.
+
+EIGRP: A Cisco propietary routing protocol that uses composite metric based on the bandwidth, delay, load and reliability.
+
+ARP: Provides address mapping between the IP address and the hardware address.
+
+PPP: Provides the means of encapsulating packets for transmission over a serial link.
+
+Ethernet: Defines the rules for wiring and signaling standards of the network access layer.
+
+Interface Drivers: Provides instructions to a machine for the control of a specific interface on a network device.
