@@ -32,3 +32,96 @@ IP: A numerical label assigned to each device connected to a computer network th
 
 Ethernet:  a family of computer networking technologies commonly used in local area networks, metropolitan area networks and wide area networks.
 
+Access Method: A function of a mainfram operating system that enable access to data on disk, tape or other external devices.
+
+Flow Control: The process of managing the rate of data transmission between two nodes to prevent a fast sender from overwhelming a slow receiver.
+
+Response Timeout:
+
+Unicast: Transmission of a data package or an audiovisual signal to a single recipient.
+
+Multicast: Transmission of a data package or an audiovisual signal to a group of recipients.
+
+Braodcast: Transmission of a data package or and audiovisual signal to a group of recipients over an entier network.
+
+TCP/IP Model:
+
+	Application: Data to the user, plus encoding and dialog control.
+
+	Transport: Supports communication between various devices across diverse networks.
+
+	Internet: Determines the best path through the network.
+
+	Network Access:Controls the hardware devices and media that make up the network.
+
+Internet Society (ISOC): Responsible for promoting the open development and evolution of internet use throughout the world.
+
+Internet Architecture Board (IAB): Responsible for the overall managment and development of internet standards.
+
+Internet Engineering Task Force (IETF): Develops, updates, and maintains internet and TCP/IP technologies. This includes the process and documents for developing new protocols and updating exitisting protocols know as Request for Comments (RFC) documents.
+
+Internet Engineering Task Force (IRTF): Focused on long-term research related to internet and TCP/IP protocols such as Anti-Spam Research Group (ASRG), Crypto Forum Research Group (CFRG), and Peer-to-Peer Research Group (P2PRD).
+
+Internet Corporation for Assinged Names and Numbers (ICANN): Coordinates IP address allocation, the managment of domain names, and assignment of other information used TCP/IP protocols.
+
+Internet Assigned Numbers Authority (IANA): Responsile for overseeing and managing IP address allocation, domain name managment, and protocol identifiers for ICANN.
+
+Institute of Electrical and Electronics Engineers (IEEE): Organization of electrical engineering and electronics dedicated to advancing technological innovation and creating standards in a wide area of industries including power and energy healthcare, telecommunications, and networking.
+
+Electronic Industies Alliance (EIA): Best known for its standards related to electrical wiring, connectors, an the 19-inch racks used to mount networking equipment.
+
+Telecommunications Industry Association (TIA): Responsible for developing communication standards in a variety of areas including radio equipment, cellular towers, Voice over IP (VoIP) devices, satellite communications, and more.
+
+International Telecommunications Union-Telecommunication Standardization Sector (ITU-T): One of the largest and oldest communication standard organizations. The ITU-T defines standards for video compression, Internet Protocol Televison (IPTV), and broadband communications, such as a digital subscriber line (DSL).
+
+Protocol Model: A model that closely matches the structure of a particular protocol suite.
+
+Reference Model: A model that provides consistency within all types of network protocols and services by describing what has to be done at a particular layer, but not prescribing how it should be accomplished.
+
+OSI Model:
+	
+	Application: Contains protocols used for process-to-process communication.
+
+	Presentation: provides for common representation of the data transferred between application layer sefvices.
+
+	Session: Provides services to the presentation layer to organize its dialogue and to manage data exchange.
+
+	Transport: Defines services to segment, transfer, and reassemble the data for individual communications between the end devices.
+
+	Network:Provides services to exchange the individual peices of the data over the network between identified end devices.
+
+	Data Link: Protocols describe methods for exchanging data frames between devices over a common media.
+
+	Physical: Describes the mechanical, electical, functional, and procedural means to activate, maintain, and de-activate connectors for bit transmission to and from a network device.
+
+Encapsulation:
+	
+	 Data: The general term for PDU used at the application layer.
+
+	Segment: Transport layer PDU.
+
+	Packet: Network layer PDU.
+
+	Frame (medium dependent): Data link layer PDU.
+
+	Bits: A physical layer PDU used when physically transmitting data over the medium.
+
+Network layer source and destination addresses: Responsible for delivering the IP packet from the original source to the final destination, either on the same network or to a remote network.
+
+Data link layer source and destination addresses: Responsible for delivering the data link frame from one network interface card (NIC) to another NIC on the same network.
+
+Source IP address: The IP address of the sending device, the original source of the packet.
+
+Destination IP address: The IP address of the receiving device, the final destination of the packet.
+
+Source data link address: The physical address of the device's NIC that is sending the dat link frame.
+
+Destination data linkk address: The physical address of the NIC that is receiving the dat link frame.
+
+Network portion: The left-most part of the address that indicates which network the IP address is a member
+
+Host portion: The remaining part of the address that identifies a specific device on the network.
+
+Source MAC address: This is the data link address, or the Ethernet MAC address, of the device that sends the data link frame with the encapsulated IP packet.
+
+Destination MAC address: When the receiving device is on the same network as the sending device, this is the data link address of the receiving device.
