@@ -1,0 +1,40 @@
+Words and Definitions:
+
+Ethernet Encapsulation:
+
+	LLC sublayers: Handles the communication between the upper layers and the lower layers. Takes the network protocol data and adds control information to help deliver the packet to the destination node.
+
+	MAC sublayer: Implemented by hardware, typically in the computer NIC. the specifics are listed in the IEEE 802.3 standards.
+
+MAC Sublayer:
+
+	Data Encapsulation: The process includes grame assembly before transmission, and the frame disassembly upon reception of a frame.
+
+		Frame delimiting: The framing process provides important delimiters that are used to identify a group of bits that make up a frame.
+
+		Addressing: The encapsulation process contains the Layer 3 PDU and also provides for data link layer addressing.
+
+		Error detection: Each frame contains a trailer used to detect any errors in transmission.
+
+	Media Access Control: Responsible for the placement of frames on the media and the removal of frames from the media.
+
+Ethernet Frame Feilds:
+
+	Preamble: Used for synchroniztation between the sending and receiving device. The first 8 bytes of the frame are used to get the attention of the receiving nodes.
+
+	Destination MAC Address: Used by layer 2 to assist devices in determining if a frame is addressed to them.
+
+	Source MAC Address: Identifies the frame's original NIC or interface. Must be a unicast address.
+
+	EtherType: identifies the upper layer protocol encapsulated in the Ethernet frame.
+
+	Data: Contains the encapsulated data from a higher layer.
+
+	Frame Check Sequence (FCS): Used to detect errors in a frame. 
+
+MAC Address and Hexadecimal:
+
+	Representing Hexadecimal Values: Used to represent Ethernet MAC addresses and IP version 6 addresses.
+
+	Hexadecimal Conversations: Easier to convert the decimal or hexadecimal value to binary, and then convert the binary value to either decimal or hexadecimal as appropriate.
+

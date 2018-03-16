@@ -1,0 +1,218 @@
+Bandwidth: The maximun rate at which data can be carried over a specific medium.
+
+Throughput: The actual amount of data, in bits that crosses a given point in a  network over a certain period of time.
+
+Goodput: The amount of usable data that crosses a given point in a network over a certain period of time.
+
+Electromagnetic Interface: Interface that is caused when the electromagnetic feild of one device affects the electromagnetic feild of other devices.
+
+Radio Frequency Interface: Electromagnetic interface that is in the radio frequency range.
+
+Crosstalk: Occurs when the signals of one wire affects the signal on an adjacent wire.
+
+Cancellation: The twisting of opposing wires to effectively eliminate crosstalk.
+
+Header: Information that is added before the data feild in a frame.
+
+Tailer: Information that is added after the data feild in a frame.
+
+Physical Topology: The actual connections and layout of devices in a network.
+
+Logical Topology: The way that the data travels Through the network.
+
+Contention-based access: Nodes compete to be able to use the network medium.
+
+Controlled access: When each node has an orderly opportunity to access the medium.
+
+Frame check sequence: Value of the feild in a frame that is computed from the contents of the frame and determines if the frame has been damaged.
+
+Full-duplex: Devices are able to send and receive data simultaneously.
+
+Half-duplex: Devices able to send and receive information, but only one direction at a time.
+
+Copper cable: the signals are patterns of electrical pulses.
+
+Fiber-optic cable: The signals are patterns of light.
+
+Wireless: The signals are patterns of microwave transmission.
+
+Functions:
+	
+	Physical Componets: Electronic hardware devices, media, and other connectors that transmit and carry the signal to represent the bits.
+
+	Encoding: A method of converting a stream of data into a predefined "code".
+
+	Code: Groupings  of bits used to provide a predictble pattern that can e recognized by both the sender and the receiver.
+
+	Signaling: The electrical, optic, or wireless signals that represent the "1" and "0" on the media.
+
+Copper Cabling:
+	
+	Electromagnetic Interference (EMI)/ Radio Frequency Interference (RFI): Disorts and corrupts the data signals being carried by copper media.
+
+	Crosstalk: A disturbance caused by the electric or magnetic feilds of a signal on one wire to the signal in an adjacent	wire.
+
+Copper Media:
+
+	Unsheilded Twisted-Pair (UTP): Most common networking media. Terminated with RJ-45 connectors, is used for interconnecting network hosts with intermediate networking devices.
+
+		Cancellation: When two wires in an electrical circuit are placed close together, their magnetic feilds cancel each ethers out and cancelling out any outside EMI and RFI signals.
+	
+		Varying the number of twists per wire pair: Following precise specifications of how many twists are permitted per meter of cable to further enhance the cancellation effect of each pair of circuit wires.
+
+	UTP Cabling Standards:
+
+		Catagory 3 Cable (UTP): Used for voice communication. Most often used for phone lines.
+
+		Catagory 5 and 5e Cable (UTP): Used for data transmission. Cat5 supports 100Mb/s and can support 1000 Mb/s, but is not recommended. Cat5e supports 1000 Mb/s.
+
+		Catagory 6 Cable (UTP): Used for data transmission. An added separator is between each pair of wires allowing it to function at higher speeds. Supports 1000 Mb/s - 10 Gb/s, through 10 Gb/s is not recommended.
+
+	UTP Cable Types:
+	
+		Ethernet Straight-through: The most common type of networking cable used to interconnect a host to switch and a switch to a router.
+
+		Ethernet Crossover: A cable to interconnect similar devices.
+
+		Rollover: A Cisco proprietart cable used to connect a workstation to a router or switch console port.
+
+	Sheilded Twisted-Pair (STP): Provides Better noise protection than UTP cabling. Is significantly more expensive and difficult to intsall. Uses an RJ-45 connector.
+
+	Coaxial: Gets its name for there are two conductors that share the same axis. 
+
+		Wireless Installations: Coaxial cables attach antennas to wireless devices.
+
+		Cable Internet Installations: Replaces portions of the coaxial cable and supporting amplification elements with fiber-optic cable.
+
+Fiber-Optic Cabling:
+
+	Entire networks: Used for the backbone cabling applications and interconnecting infrastructure device.
+
+	Fiber-To-The-Home (FTTH):Used to provide always-on broadband services to homes and small businesses.
+
+	Long-Haul Networks: Used by service providers to connect countries and cities.
+
+	Submarine Cable Networks:Used to provide reliable high-speed, high-capacity solutions capable of surviving in harsh undersea environments up to transocean distances.
+
+Fiber Media Cable:
+
+	Jacket: Typically a PCV jacket that protects the fiber against abrassion, moisture, and  other contaminants.
+
+	Strengthening Material: Surrounds the buffer, prevents the fiber cable from being stretched when it is being pulled.
+
+	Buffer: Used to help sheild the chore and cladding from damage.
+
+	Cladding: Made from slightly different chemicals than those used to create the core. It tends to act like a mirror by reflecting light back into the core of the fiber.
+
+	Core:The light transmission element at the center of the optic fiber.
+
+Types of Fiber Media:
+
+	Single-Mode Fiber (SMF): Consists of a very small core and uses expensive lazer technology to send a single ray of light. Used for long distance situations.
+
+	Multimode Fiber (MMF): Consists of larger core and uses LED emitters to send light pulses and has the light enter at different angles. Used for short distance situations.
+
+Fiber-Optic Connectors:
+
+	Straight-Tip (ST) Connectors: One of the first connector types used. The connector locks securely with a "twist-on/twist-off" bayonet style mechanism.
+
+	Subscriber Connector (SC) Connector: It is a widely adopted LAN and WAN connector that uses a push-pull mechanism to ensure positive insertion.
+
+	Lucent Connector (LC) Simplex Connectors: A smaller version of the fiber-optic SC.
+
+	Duplex Multimode Connectors: Similar to a LC simplex connector, but using a duplex connector.
+
+Testing Fiber Cables:
+
+	Misalignment: The fiber-optic media are not precisely aligned to one another when joined.
+
+	End Gap: The media does not completely touch at the splice or connection.
+
+	End Finish: The media ends are not well polished, or dirt is present at the termination.
+
+Properties of Wireless Media:
+
+	Coverage Area: Wireless data communication technologies work well in open environments but struggle with certain construction materials used in buildings and the local terrain will limit their effective coverage.
+
+	Interference: Wireless is suseptable to interference and can be distrupted by such common devices as household cordless phones, some types of flourescent lights, microwave ovens, and other wireless communications.
+
+	Security: Wireless communication coverage requires no access to a physical strand of media. therefore, devices and users, not authorized for access to the network, can gain access to the transmission.
+
+	Shared Medium: WLANs operate in half-duplex, which means only one device can send or receive at a time.The wireless medium is shared amoungst all wireless users. The more users needing to access the WLAN simultaneously, results in less bandwidth for each user.
+
+Wireless Standards:
+
+	Wi-Fi: Standard IEEE 802.11: The wireless NIC must first listen before transmitting to determine if the radio channel is clear. If another wireless device is transmitting, then the NIC must wait until the channel is clear.
+
+	Standard IEEE 802.15: Bluetooth: Wireless Personal Area Network (WPAN) standard, commonly known as "Bluetooth", uses a device pairing process to communicate over a distance from 1 to 100 meters.
+
+	Standard IEEE 802.16: WiMAX: Commonly know as Worldwide interoperability for Microwave access (WiMAX), uses a point-tomultipoint topology to provide wireless broadband access.
+
+Wireless LAN:
+
+	Wireless Access Point (AP): Concentrates the wireless signals from users and connects to the existing copper-based network infrastructure, such as Ethernet. Home and small business wireless routers integrate the functions of a router, switch, and access point into one device.
+
+	Wireless NIC adapters: Provides wireless communication capability to each network host.
+
+Data Link Sublayers:
+
+	Logical Link Control (LLC): Communicates with the network layer. Places informationin the frame that identifies which network layer protocol is being used for frame. This information allows multiple Layer 3 protocols to utilize the same network interface and media.
+
+	Media Access Control (MAC): This lower sublayer defines the media access processes performed by the hardware. It provides data link layer addressing and access to various network technologies.
+
+Controlling Access to the Media:
+
+	Topology: How the connection between the nodes appears to the data link layer.
+
+	Media sharing: How the nodes share the media. The media sharing can be point-to-point.
+
+Physical and Logical Topologies:
+
+	Physical Topology: Refers to the physical connections and identifies how end devices and infrastructure devices such as routers, switchs, and wireless access points are interconnected. Physical topologies are usually point-to-point or star.
+
+	Logical Topology: Refers to the way a network transfers frames from one node to the next. This arrangement consists of virtual connections between the nodes of a network. These logical signal paths are defined by data link layer protocols.
+
+Common Physical WAN Topologies:
+
+	Point-to-Point: This is the simplest topology that consists of a permanent link between two endpoints.
+
+	Hub and Spoke: A WAN version of the star topology in which a central site interconnects branch sites using point-to-point links.
+
+	Mesh: This topology provides high availability, but requires that every end system be inter connected to every other system.
+
+Physical LAN Topologies:
+
+	Star: End devices are connected to a central intermediate device and is easy to install, very scalable, and easy to trouble shoot.
+
+	Extended Star: An additional Ethernet switches interconnect other star topologies.
+
+	Bus: All end systems are chained to each other and terminated in some form on each end. Uses coax cables were used in legacy Ethernet networks because it was inexpensive and easy to set up.
+
+	Ring: End systems are connected to their respective neighbor forming a ring that doesn't need to be terminated like a bus topology.
+
+Half and Full Duplex:
+
+	Half-Duplex communication: Both devices can transmit and receive on the media but cannot do so simultaneously.
+
+	Full-Duplex communication: Both devices can transmit and receive on the media at the same time.
+
+Media Control Methods:
+
+	Contention-Based access: All nodes operating in half-duplex compete for the use of the medium, but only one device can send at a time.
+
+	Controlled access: Each node has its own time to use the medium.
+
+Frame Feilds:
+
+	Frame start and stop indicator flags: Used to identify the beginning and the end limits of the frame.
+
+	Addressing: Indicates the source and destination nodes on the media.
+
+	Type: Identifies the Layer 3 protocol in the data feild.
+
+	Control: Identifies special flow control services such as quality services (QoS). QoS is used to give forwarding priority to certan types of messages. Data link frames carrying voice over IP (VoIP) packets nermally receive priorty because they are sensitive to delay.
+
+	Data: Contains the frame payload.
+
+	Error Detection:These frame feilds are used for error detection and are included after the data to form the trailer.
+
