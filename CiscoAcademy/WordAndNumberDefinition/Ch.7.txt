@@ -1,0 +1,42 @@
+Words and Definitions:
+
+	Binary: A numbering system consisting of the digits 0 and 1, used by computers to perform operations.
+
+	Bit: A single binary digit, represented by a 0 or a 1.
+
+	Octet: One section of an IP address consisting of a group of 8 bits.
+
+	Positional Notation: Determining a digit value based on the digit position, used in converting from one numbering system to another.
+
+	Subnet Mask: A continuous sequence of 1 bits followed by a continuous sequence of 0 bits, used to determine the network portion of an IP address.
+
+	ANDing: A binary process used to determine the network address of a host address by using the host address subnet mask.
+
+	Prefix Length: The number of bits set to 1 in a subnet mask.
+
+	Network Address: A dotted-decimal number that represents a unique IP network.
+
+	Host Address: Any IP address in an IP network that can be assigned to an interface.
+
+	Broadcast Address: A dotted-decimal number that represents all hosts in an IP network.
+
+	Unicast Address: The IP address of a single host on a network.
+
+	Multicast Address: An IP address representing a selected group of hosts.
+
+	Public Address: An IP address that can be routed on the Internet.
+
+	Private Address: An IP address used internally and not routed on the Internet.
+
+	Classful Addressing: Specific ranges of IP addresses that make up classes of addresses in which the number of available network and host addresses are defined.
+
+	Classless Addressing: IP addressing standards created in 1993 that allow address allocation based on prefix length rather than predefined class ranges.
+
+	Hexadecimal: A base-sixteen numbering system that uses numerals 0 through 9 and letters A through F to represent binary	 numbers in more condensed form.
+
+	IPv6 Link-local Address: An IP address that is required for every IPv6-enable network interface and that allows a device to communicate with other IPv6-enabled devices on the same link.
+
+	Ping: A utility that sends a series of echo requests from one IP host to another IP host and that processes the echo reply messages to test connectivity between the devices.
+
+	Traceroute: A utility that generates details about the route traveled by the data sent between two devices.
+

@@ -1,5 +1,29 @@
 Words and Definitions:
 
+	Organizationally Unique Identifier: A three-byte code that is assigned by IEEE to identify the vendor of a NIC.
+
+	Unicast: A message that is sent from a single sender to a single recipient.
+
+	Broadcast: A message that is sent from a single sender to all recipients.
+
+	Multicast: A message that is sent from a single sender to a group of recipients - more that one, nut not all.
+
+	Physical address: A Layer 2 address that allows NICs to communicate with each other.
+
+	Logical address: A Layer 3 address that identifies both the network and the specific host on that network.
+
+	Address Resolution Protocol: The process that is used to find a Layer 2 address when a Layer 3 address is known.
+
+	Auto-MDIX: A feature that detects the type of cable, and configures the interface to allow the connection.
+
+	Store-and-forward Switching: A switching method that receives the entire frame before forwarding.
+
+	Cut-through switching: A switching method that begins the forwarding process as soon as enough information has been recieved to make a forwarding decision.
+
+	Fastforwarding switching: A cut-through switching method that begins to forward data as soon as the destination address has been received.
+
+	Fragment-free switching: A cut=through switching method that begins to forward data after receipt of the first 64 bytes of a frame.
+
 Ethernet Encapsulation:
 
 	LLC sublayers: Handles the communication between the upper layers and the lower layers. Takes the network protocol data and adds control information to help deliver the packet to the destination node.
@@ -37,4 +61,68 @@ MAC Address and Hexadecimal:
 	Representing Hexadecimal Values: Used to represent Ethernet MAC addresses and IP version 6 addresses.
 
 	Hexadecimal Conversations: Easier to convert the decimal or hexadecimal value to binary, and then convert the binary value to either decimal or hexadecimal as appropriate.
+
+Cut-Through Switching:
+
+	fast-forward switching: Lowest latency. immediately forwards packet after reading the destination address but is proun to errors occuring.
+
+	Fragment-free switching: the switch stores the first 64 bytes of the frame to enhance fast-forward switching by performing a small error check on the first 64 bytes of the frame.
+
+Memory Buffering on Switches:
+
+	Port-Based Memory Buffering: I port based memory buffering, frames are stored in queues that are linked to specific incoming and outgoing ports.
+
+	Shared Memory Buffering: Shared memor buffering deposits all frames into a common memory buffer, which all the ports on the switch share.
+
+Duplex and Speed Settings:
+
+	Full-duplex: Both ends of the connection can send and receive simultaneously.
+
+	Half-duplex: Only one end of the connection can send at a time.
+
+	Duplex Mismatch: When one port operates at half-duplex and another port operates at full-duplex.
+
+Destination on Same Network:
+
+	Physical Address(The MAC address): Used for Ethernet NIC to Ethernet NIC communications on the same network.
+
+	Logical Address(The IP address): Used to send the packet from the original source to the final destination.
+
+	Destination MAC Address: This is the MAC address of the file server's Ethernet NIC.
+
+	Source MAC Address: This is the MAC address of the PC-A's Ethernet NIC.
+
+	Source IP Address: This is the IP address of the original source, PC-A.
+
+	Desintaion IP Address: This is the IP address of the final desination, the file server.
+
+Introduction to ARP:
+
+	Destination MAC Address: The MAC address of the Ethernet NIC, which will either the MAC address of the final destination device or the router.
+
+	Source MAC Address: The MAC address of the sender's Ethernet NIC.
+
+ARP Request:
+
+	Target IPv4 address: This is the IPv4 address that requires a corresponding MAC address.
+
+	Target MAC address: This is the unknown MAC address and will be empty in the request message.
+
+	Destination MAC address: This is a braodcast address requiring all Ethernet NICs on the LAN to accept and process the ARP request.
+
+	Source MAC address: This is the sender of the AR request's MAC address.
+
+	Type: ARP messages have a type feild of 0x806. This informs the receiving NIC that the data portion of the frame needs to be passed to the ARP process.
+
+ARP Reply:
+
+	Sender's IPv4 address: This is the IPv4 address of the sender, the device whose MAC address was requested.
+
+	Sender's MAC address: This is the MAC address of the sender, the MAC address needed by the sender of the ARP request.
+
+	Destination MAC address: This is the MAC address of the sender of the ARP request.
+
+	Source MAC address: This is the sender of the ARP reply's MAC address.
+
+	Type: ARP message have a type feild of 0x806. this informs the receiving NIC that the data protion of the frame	needs to be passed to the ARP process.
 
