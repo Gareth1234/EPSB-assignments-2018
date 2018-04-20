@@ -1,0 +1,54 @@
+Words and Definitions:
+
+	Subnetting: The process of subdividing a network into smaller groupings of devices, or subnets.
+
+	Broadcast Domain: An area within which a broadcast transmission will be shared.
+
+	Subnet: A subdivision of a network that is created either to conserve addresses or to support specific network requirements.
+
+	VLSM: Allows subnets of different sizes to be created from the same network address.
+
+	Three levels of IP addressing hierarchy: Network, subnetwork, host.
+
+	Two effects of excess broadcast traffic: 1 - slow networks due to excess traffic, 2 - slow devices due to the need to process broadcasts.
+
+	Three classful prefix-lengths: /8, /16, /24
+
+	2^n formula: Calculates the number of subnets created for n bits borrowed.
+
+	2^n-2 formula: Calculates the number of hosts per subnet for n bits remaining in the host feild.
+
+	The subnet mask for prefix /26: 255.255.255.192
+
+	Structure of IPv6 unicast addresses: 48-bit global routing prefix, 16-bit subnet ID, 64-bit interface ID.
+
+	Gateway: A device that allows hosts on one network to communicate with hosts on other networks.
+
+Broadcast Domains:
+
+	Other devices: A device uses Address Resolution Protocol which sends Layer 2 broadcasts to a known IPv4 address on the local network to discover the associated MAC address.
+
+	Services: A host typically acquires its IPv4 address configuration using the Dynamic Host Configuration Protocol which sends broadcasts on the local network to locate a DHCP server.
+
+Creating 2 Subnets:
+
+	-IPv4 Network address is 192.168.1.0 and contains all 0 bits in the hst portion of the address.
+	
+	-First IPv4 host address is 192.168.1.1 and contains all 0 bits plus a right-most 1 bit in the host portion of the address.
+
+	-Last IPv4 host address is 192.168.1.126 and contains all 1 bits plus a right most 0 bit in the host portion of the address.
+
+	-IPv4 Broadcast address is 192.168.1.127 and contains all 1 bits in the host portion of the address.
+
+Assigning Addresses to Devices:
+
+	End user clients: Most networks allocate addresses dynamically using Dynamic Host Configuration Protocol. This reduces the burden on network support staff and virtually eliminates entry errors. As well, addresses are only leased for period of time. Changing the subnetting scheme means that the DCHP server needs to be reconfigured, and the clients must renew their IP addresses. IPv6 clients can obtain address information using DCHPv6 or SLAAC.
+
+	Servers and peripherals: These should have a predictable static IP address. Use a consistent numbering system for these devices.
+
+	Servers that are accessable from the Internet: In many networks, servers must be made available to the remote users. In most cases, these servers are assigned private addresses internally, and the router or firewall at the perimeter of the network must be configured to translate the internal address into a public address.
+
+	Intermediary devices: These devices are assigned addresses for network managment, monitoring, and security. Because we must know how to communicate with intermediary devices, they should have predictable, statically assigned addresses.
+
+	Gateway: Routers and firewall devices have an IP address assigned to each interface hich serves as the gateway for the hosts in the network. Typically, the router interface uses either the lowest or highest address in the network.
+
