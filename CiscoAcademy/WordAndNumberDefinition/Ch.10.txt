@@ -1,0 +1,87 @@
+Words and Definitions:
+
+	Presentation Layer: The layer in the OSI model that is responsible for formatting, compressing, and encrypting data.
+
+	Peer-to-Peer Network: Consists of peer machines that exchange data with each other without a dedicated server.
+
+	Application Layer: Provides data exchange and the interface between the system and the network.
+
+	Domain Name: The name that is used to uniquely identify a website and is used instead of the IP address.
+
+	URL: Uniform Resource Locator - the "friendly" address that is used in a web browser bar and that corresponds to the IP address of the site.
+
+	nslookup: A tool used to query the DNS system to find the IP addresses for domain names, and vice versa.
+
+	Session Layer: Used to arrange the communication between source and destination applications and responsible for the state of the conversation.
+
+	Client-server Network: An architecture that allows network clients to request service directly from network servers.
+
+	HTTP: Hypertext Transfer Protocol - used to request and transfer hypertext data between clients and servers.
+
+	POP: A protocol that is used to retreive email from a server it delets messages from the server by default.
+
+	IMAP: A protocol that is used in email retrieval it leaves copy of messages on the server.
+
+	SMTP: The protocol responsible for sending email.
+
+	DHCP: A service that is used in networks to automatically configure IP addresses on devices.
+
+Application Layer:
+
+	The Application Layer: The application layer is closest to the end user. It is the layer that provides the interface between the applications used to communicate and the underlying network over which messages are transmitted. Application layer protocols are used to exchange data between programs running on the source and destination hosts.
+
+Presentation and Session Layer:
+
+	The Presentation Layer: The presentation layer formats data for the application layer, and it sets standards for file formats. Some well-known standards for video include QuickTime and Motion Picture Experts Group. Some well-known graphic image formats that are used on networks are Graphics Interchange Format, Joint Photographic Experts Groups, and Portable Network Graphics format.
+		-Formatting, data at the source device into a compatible form for receipt by the destination device
+		-Compressing data a way that can be decompressed by the destination device.
+		-Encrypting data for transmission and decrypting data upon receipt.
+
+	The Session Layer: Functions at the session layer create and maintain dialogs between source and destination applications. The seesion layer handles the exchange of information to initiate dialogs, keep them active, and to restart sessions that are disrupted or idle for a long period of time.
+
+TCP/IP Application Layer Protocols:
+
+	Name System
+	DNS: 
+		-Translates domain name into IP addresses.
+
+	Host Config
+	BOOTP:
+		-Enables a diskless workstation to discover its own IP address, the IP address of a BOOTP server on the network, and a file to be loaded into memory to boot the machine.
+		-BOOTP is being superseded by DHCP.
+
+	DHCP:
+		-Dynamically assigns IP addresses to client stations at start-up.
+		-Allows the addresses to be re-used when no longer needed.
+
+	Email
+	SMTP:
+		-Enables clients to send email to a mail server.
+		-Enables servers to email to other servers.
+
+	POP:
+		-Enables clients to retrieve email from a mail server.
+		-Downloads email from a mail server to the desktop.
+
+	IMAP:
+		-Enables clients to access email stored on a mail server.
+		-Maintains email on server.
+
+	File Transfer
+	FTP:
+		-Sets rules that enable a user on one host to access and transfer files to and from another host over a network.
+		-A reliable, connection-oriented, and acknowledged file delivery protocol.
+
+	TFTP:
+		-A simple, connectionless file transfer protocol.
+		-A best-effort, unacknowldged file delivery protocol.
+		-Utilizes less overhead than FTP.
+
+	Web
+	HTTP:
+		-Set of rules fro exchanging text, graphic images, sound, video, and other multiedia files on the World Wide Web.
+
+	HTTPS:
+		-The browser uses encryption to secure HTTP communications.
+		-Authenticates the website to which you are connecting your browser.
+

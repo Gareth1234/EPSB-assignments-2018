@@ -52,3 +52,11 @@ Assigning Addresses to Devices:
 
 	Gateway: Routers and firewall devices have an IP address assigned to each interface hich serves as the gateway for the hosts in the network. Typically, the router interface uses either the lowest or highest address in the network.
 
+The IPv6 Global Unicast Address:
+
+	Global Routing Prefix: This is the prefix, or network, portion of the address that is assigned by the provider. Typically, Regional Internet Registries assign a /48 global routing prefix to ISP's and customers.
+
+	Subnet ID: Used by an organization to identify subnets within its site.
+
+	Interface ID: This is the equivalent to the host portion of an IPv4 address. The term interface ID is used because a single host may have multiple interfaces, each having one or more IPv6 addresses.
+

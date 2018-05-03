@@ -1,0 +1,112 @@
+Words And Definitions:
+
+	Port Numbers: Numbers that are assigned to the source and destination at Layer 4 to uiquely identify the communication.
+
+	Conversation Multiplexing: The combining of many different conversations into one data stream.
+
+	Segment: A block of application data created to facilitate network transport.
+
+	TCP: A connection-oriented reliable protocol that uses a 3-way handshake.
+
+	UDP: A connectionless protocol that has a little overhead and is used for communication data such as voice and video.
+
+	Best Effort Delivery: A data delivery method that has no service guarantee.
+
+	Session: A conection between systems.
+
+	Connection-oriented: Used to describe the reliable nature of TCP. The connection refers to the 3-way handshake required in TCP before data transmission.
+
+	Flow Control: A mechanism that is used with TCP to control the amount of traffic that is sent from the source to the destination.
+
+	Datagrams: The name of the UDP PDU.
+
+	Source Port: A value between 1024 and 65535 used to uniquely identify the source application or process on a local host.
+
+	Destination Port: A port value that uniquely identifies the destination application.
+
+	Well-known Ports: Port numbers in the range of 1-1024 that identify network applications that are well known such as web, email, and remote login applications.
+
+	Dynamic Ports: Ports that are dynamically assigned to communication sessions as needed and are typically in numerical range of 1024 to 65535.
+
+	Netstat: A utility that tracks TCP connections on networks hosts.
+
+Transport Layer Responsible:
+
+	Tracking Individual Conversations: At the transport layer, each set of data flowing between a source application and a destination application is known as a conversation. A host may have multiple applications that are communicating across the network simutaneously. Each of these applications communicates with one or more applications on one or more remote hosts. It is the responsibility of the transport layer to maintain and track these multiple conversations.
+
+	Segmenting Data and Reassembling Segments: Data must be prepared to be sent across the media in manageable peices. Most networks have a limitation on the amount of data that can be included in a single pacet. Transport layer protocols have services that segment the application data into data. A header, used for reassembly, is added to each block of data. This header is used to track the data stream.
+
+	At the destination, the transport layer must be able to reconstruct the peices of data into a complete data stream that is useful to the application layer. The protocols at the transport layer describe how the transport layer header information is used to reassemble the data peices into streams to be passed to the application layer.
+
+	Identifying the Applications: To pass data streams to the proper applications, the transport layer must identify the target application. To accomplish this, the transport layer assigns each application an identifier called a port number. Each software process that needs to access the network is assigned a port number unique to that host.
+
+TCP Features:
+
+	Establishing a Session: TCP is a connection-oriented protocol. A connection-oriented protocol is one that negotiates and establishes a permanent connection between source and destination devices prior to forwarding any traffic. Through sessions establishment, the devices negotiate the amount of traffic that can be forwarded at a given time, and the communication data between the two can be closely managed.
+
+	Reliable Delivery: In networkingterms, reliability means ensuring that each segment that the source sends arrives at the destination. For many reasons, it is possible for a segment to become corrupted or lost completely, as it is transmitted over the network.
+
+	Same-Order Delivery: Because networks may provide multiple routes that can have different transmission rates, data can arrive in the wrong order. By numbering and sequencing the sgments, TCP can ensure that these segments are reassembled into the proper order.
+
+	Flow Control: Network hosts have limited resources, such as memory and processing power. When TCP is aware that these resources are overtaxed, it can request that the sending application reduce the rate of data flow. This is done by TCP regulating the amount of data the source transmits. Flow control can prevent the need for retransmission of the data when the receiving host's resources are overwhelmed.
+
+TCP Header:
+
+	Source Port (16 bits) and Destination Port (16 bits): Used to identify the application.
+
+	Sequence number (32 bits): Used for data reassembly purpose.
+
+	Acknowledgement number (32 bits): Indicates data has been received and the next byte expected from the source.
+
+	Header length (4 bits): Known as "data offset". Indicates the length of the TCP segment header.
+
+	Reserved (6 bits): This feild is reserved for the future.
+
+	Control bits (6 bits): Include bit codes, or flags, which indicate the purpose and function of the TCP segment.
+
+	Window size (16 bits): Indicates the number of bytes that can be accepted at one time.
+
+	Checksum (16 bits): Used for error checking of the segment header and data.
+
+	Urgent (16 bits): Indicates if data is urgent.
+
+Port Numbers:
+
+	Source Port: The source number is dynamically generated by the sending device to identify a conversation between two devices. This process allows multiple conversations to occur simultaneously. It is common for a device to send multiple HTTP service requests to a web server at the same time. Each separate HTTP conversation is tracked ased on the source ports.
+
+	Destination Port: The client places a destination port number in the segment to tell the destination server what service is being requested. For example, when a client specifies port 80 in the destination port, the server that receives the message knows that web services are being requested. A server can offer more than one  service simultaneously such as web services on port 80 at the same time that it offers File Transfer Protocol connection establishment on port 21.
+
+Port Number Groups:
+
+	Well-known Ports (Numbers 0 to 1023): These numbers are reserved for services and applications. They are commonly used for applications such as web browsers, email clients, and remote access clients. By defining these well-known ports for server applications, client applications can be programmed to request a connection to that specific port and its associeted service.
+
+	Registered Ports (Numbers 1024 to 49151): These port numbers are assigned by IANA to a requesting entity to use with specific processes or applications. These processes are primarily individual applications that a user has chosen to install, rather than common applications that would receive a well-known port number.
+
+	Dynamic or Private Ports (Numbers 49152 to 65535): Also known as ephemeral ports, these are usually assigned dynamically by the client's OS when a connection to a service is initiated. The dynamic port is then used to identify the client application during communication.
+
+TCP Connection Establishment:
+
+	Step 1: The initiating client requests a clietn-to-server communication session with the server.
+
+	Step 2: The server acknowledges the client-to-server communication and requests a server-to-client communication session.
+
+	Step 3: The initiating client acknowledges the server-to-client communication session.
+
+TCP Session Termination:
+
+	Step 1: When the client has no more data to send in the stream, it sends a segment with the FIN flag set.
+
+	Step 2: The server sends an ACK to acknowledge the receipt of the FIN to terminate the session from client to server.
+
+	Step 3: The server sends a FIN to the client to terminate the server-to-client session.
+
+	Step 4: The client responds with an ACK to acknowledge the FIN from the server.
+
+Applications that use UDP:
+
+	Live video multimedia applications: Can tolerate some data loss, but require little or no delay.
+
+	Simple request and reply applications: Applications with simple transactions where a host sends a request and may not receive a reply.
+
+	Applications that handle reliability themselves: Undirectional communications where flow control, error detection, acknowledgements, and error recovery is not required or can be handled by the application.
+
