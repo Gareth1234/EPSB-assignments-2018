@@ -85,3 +85,45 @@ TCP/IP Application Layer Protocols:
 		-The browser uses encryption to secure HTTP communications.
 		-Authenticates the website to which you are connecting your browser.
 
+Hypertext Transfer Protocol and Hypertext Markup Language:
+
+	1.http (the protocol or scheme).
+
+	2.www.cisco.com (the server name).
+
+	3.Index.html (the sqesific filename requested).
+
+HTTP AND HTTPS:
+
+	GET: A client request for data. A client sends the GET message to the web server to request HTML pages.
+
+	POST: Uploads data files to the web server as form data.
+
+	PUT: Uploads resources or content to the web server such as an image.
+
+DNS Message Format:
+
+	A: An end device IPv4 address.
+
+	NS: An authoritative name server.
+
+	AAAA: An end device IPv6 address (pronounced quad-A).
+
+	MX: A mail exchange record.
+
+DNS Hierarchy:
+
+	.com: a business or idustry.
+
+	.org: a non-profit organization.
+
+	.au: Australia.
+
+	.co: Colombia.
+
+File Transfer Protocol:
+
+	1.Control Connection: Client opens first connection to the server for control traffic.
+
+	2.Data Connection: Client opens second connection for data traffic.
+
